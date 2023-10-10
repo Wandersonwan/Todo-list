@@ -1,0 +1,79 @@
+body{
+    background-image: url("./Image/river-8286407_1280.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.container{
+    
+    background-color: transparent;
+    width: 510px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px ;
+    
+    padding: 40px;
+}
+img{
+    height: 25px;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.4s ease-in-out;
+}
+    
+.input-task{
+    outline: none;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    padding: 13px;
+    cursor: pointer;
+    background-color: #004029;
+    transition: 0.4s ease-in-out;
+    color: #fff;
+    font-weight: bold;
+}
+.btn:hover{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.list-task{
+    width: 100%;
+
+}
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    background-color: #f2f2f2;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+    width: 400px;
+    cursor: pointer;
+    
+}
+
+p{ 
+    margin: 0 20px 0 20px;
+}
+
+.task:hover img{
+   opacity: 1;
+   transform: scale(1.1);
+}
+.done{
+    background-color: #8fac55;
+    text-decoration: line-through;
+}
